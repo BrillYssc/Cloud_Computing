@@ -1,0 +1,56 @@
+/* Reset beberapa default browser styles */
+body, h1, p, a, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 150mm;
+    height: 2mm;
+    margin: 0 auto;
+    background-color: white; /* Ganti warna latar belakang kembali menjadi putih */
+    padding: 20mm; /* Padding untuk memisahkan konten dari pinggir kertas */
+    box-sizing: border-box;
+}
+
+
+/* Style untuk profil */
+.profile {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style untuk foto profil */
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Style untuk nama */
+.profile h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style untuk hobi */
+.profile p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style untuk tautan */
+.profile a {
+    text-decoration: none;
+    color: #0078d4; /* Warna tautan biru ala GitHub */
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Hover efek pada tautan */
+.profile a:hover {
+    color: #0056b3; /* Warna tautan biru muda saat dihover */
+}
